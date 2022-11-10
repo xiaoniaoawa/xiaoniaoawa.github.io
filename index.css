@@ -1,0 +1,32 @@
+body{
+    background:rgb(154,222,226);
+}
+h2{
+    color:rgb(199,17,48);
+    text-align: center;
+}
+h4{
+    color:rgb(199,17,48);
+    text-align: center;
+}
+pp{
+    color:rgb(235, 22, 22, 0.863);
+    text-align: right;
+}
+p{
+    color:rgb(21,42,192);
+    text-align: left;
+}
+h3{
+    color: rgb(21, 42, 192);
+    text-align: center;
+}
+pn{
+    color: gray;
+}
+text1{
+    color: darkgreen;
+}
+audio{
+    text-align: center;
+}
