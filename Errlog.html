@@ -1,0 +1,91 @@
+Collecting h11<1,>=0.9.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/95/04/ff642e65ad6b90db43e668d70ffb6736436c7ce41fcc549f4e9472234127/h11-0.14.0-py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 1.0 MB/s eta 0:00:00
+Installing collected packages: h11, wsproto, simple-websocket, flask-sock
+Successfully installed flask-sock-0.5.2 h11-0.14.0 simple-websocket-0.9.0 wsproto-1.2.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Starting Bt-Panel............failed
+------------------------------------------------------
+\n
+Traceback (most recent call last):
+  File "/www/server/panel/BT-Panel", line 10, in <module>
+    from gevent import monkey
+ModuleNotFoundError: No module named 'gevent'
+------------------------------------------------------
+Error: BT-Panel service startup failed.
+        done
+Starting Bt-Tasks... failed
+------------------------------------------------------
+\n
+Traceback (most recent call last):
+  File "/www/server/panel/BT-Task", line 13, in <module>
+    import task
+  File "/www/server/panel/task.py", line 19, in <module>
+    from psutil import Process, pids, cpu_count, cpu_percent, net_io_counters, disk_io_counters, virtual_memory
+ModuleNotFoundError: No module named 'psutil'
+------------------------------------------------------
+Error: BT-Task service startup failed.
+Traceback (most recent call last):
+  File "tools.py", line 17, in <module>
+    import public,time,json
+  File "/www/server/panel/class/public.py", line 13, in <module>
+    import json,os,sys,time,re,socket,importlib,binascii,base64,string,psutil
+ModuleNotFoundError: No module named 'psutil'
+Traceback (most recent call last):
+  File "tools.py", line 17, in <module>
+    import public,time,json
+  File "/www/server/panel/class/public.py", line 13, in <module>
+    import json,os,sys,time,re,socket,importlib,binascii,base64,string,psutil
+ModuleNotFoundError: No module named 'psutil'
+Stopping Bt-Tasks...    done
+Stopping Bt-Panel...    done
+Starting Bt-Panel............failed
+------------------------------------------------------
+\n
+Traceback (most recent call last):
+  File "/www/server/panel/BT-Panel", line 10, in <module>
+    from gevent import monkey
+ModuleNotFoundError: No module named 'gevent'
+\n
+Traceback (most recent call last):
+  File "/www/server/panel/BT-Panel", line 10, in <module>
+    from gevent import monkey
+ModuleNotFoundError: No module named 'gevent'
+------------------------------------------------------
+Error: BT-Panel service startup failed.
+        done
+Starting Bt-Tasks... failed
+------------------------------------------------------
+\n
+Traceback (most recent call last):
+  File "/www/server/panel/BT-Task", line 13, in <module>
+    import task
+  File "/www/server/panel/task.py", line 19, in <module>
+    from psutil import Process, pids, cpu_count, cpu_percent, net_io_counters, disk_io_counters, virtual_memory
+ModuleNotFoundError: No module named 'psutil'
+\n
+Traceback (most recent call last):
+  File "/www/server/panel/BT-Task", line 13, in <module>
+    import task
+  File "/www/server/panel/task.py", line 19, in <module>
+    from psutil import Process, pids, cpu_count, cpu_percent, net_io_counters, disk_io_counters, virtual_memory
+ModuleNotFoundError: No module named 'psutil'
+------------------------------------------------------
+Error: BT-Task service startup failed.
+Traceback (most recent call last):
+  File "/www/server/panel/tools.py", line 17, in <module>
+    import public,time,json
+  File "/www/server/panel/class/public.py", line 13, in <module>
+    import json,os,sys,time,re,socket,importlib,binascii,base64,string,psutil
+ModuleNotFoundError: No module named 'psutil'
+lrwxrwxrwx 1 root root       37 Dec 12 20:33 python -> /www/server/panel/pyenv/bin/python3.7
+-rwx------ 2 root root 11788980 Dec 12 20:32 python3.7
+--------------e------- python3.7
+lsattr: Operation not supported While reading flags on python
+=================================================
+ERROR: The BT-Panel service startup failed.
+ERROR: 宝塔启动失败
+Raspbian GNU/Linux 11 
+ \l
+Bit:32 Mem:3838M Core:4
+Linux raspberrypi 5.15.61-v7l+ #1579 SMP Fri Aug 26 11:13:03 BST 2022 armv7l GNU/Linux
