@@ -1,11 +1,11 @@
 echo --Docker Installer----------
-echo |                          |
-echo | Make sure you are root   |
-echo | user.                    |
-echo |                          |
-echo | Install will start in    |
-echo | 5 second.                |
-echo |                          |
+echo =                          =
+echo = Make sure you are root   =
+echo = user.                    =
+echo =                          =
+echo = Install will start in    =
+echo = 5 second.                =
+echo =                          =
 echo ----------------------------
 
 sleep 5s
@@ -27,8 +27,8 @@ sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 echo --Docker Installer----------------------------------
-echo |                                                  |
-echo | Docker install finished!                         |
-echo | Try to run "sudo docker run hello-world" command!|
-echo |                                                  |
+echo =                                                  =
+echo = Docker install finished!                         =
+echo = Try to run "sudo docker run hello-world" command!=
+echo =                                                  =
 echo ----------------------------------------------------
