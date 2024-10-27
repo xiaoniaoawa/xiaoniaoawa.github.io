@@ -1,0 +1,1 @@
+'use strict';$(document).ready(function(){const c=document.querySelectorAll("img");c.length&&c.forEach(a=>{const b=a.getAttribute("src");-1===b.indexOf("fmt\x3dpng-alpha")&&a.classList.contains("isTransparent")&&(0<=b.indexOf("?")?a.setAttribute("src",b.concat("\x26fmt\x3dpng-alpha")):a.setAttribute("src",b.concat("?fmt\x3dpng-alpha")))})});
